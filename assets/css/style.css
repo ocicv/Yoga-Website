@@ -11,7 +11,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: black;
 }
 
 main {
@@ -28,9 +27,19 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#logo {
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: small;
+}
+
+header h1 {
     color: #ffffff;
-    text-decoration: none;
     font-size: 2rem;
     padding: 1rem 1rem;
 }
@@ -39,7 +48,7 @@ nav {
     position: absolute;
     text-align: left;
     top: 100%;
-    background-color: #ffffff;
+    background-color: #E9EFD8;
     width: 100%;
     display: none;
 }
@@ -80,6 +89,92 @@ nav a:hover {
     font-size: 2rem;
     float: right;
     padding: 1rem 1rem;
+}
+
+/* Main */
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+#hedline-text {
+    background-color: rgba(255, 255, 255, .3);
+    font-size: 130%;
+    position: absolute;
+    bottom: 150px;
+    left: 30px;
+    width: 80%;
+    min-height: 200px;
+}
+
+#hedline-text h2 {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    padding: 2rem 2rem 0 2rem;
+}
+
+#hedline-text h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    padding: 10px 2rem 2rem 2rem;
+}
+
+#what-we-offer {
+    text-align: center;
+}
+
+#what-we-offer h2 {
+    padding: 3rem 3rem 5px 3rem;
+}
+
+#stretch {
+    text-align: center;
+    padding: 3rem 3rem 15px 3rem;
+}
+
+#stretch i,
+#workout i,
+#socialize i {
+    font-size: 4rem;
+    padding: 8px 8px;
+}
+
+#stretch h2,
+#workout h2,
+#socialize h2 {
+    padding: 2rem 2rem 3px 2rem;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+#stretch h3,
+#workout h3,
+#socialize h3 {
+    padding: 3px 2rem 2rem 2rem;
+}
+
+#our-classes {
+    background-color: #8D9E55;
+}
+
+#register {
+    text-align: center;
+    padding: 3rem 3rem 15px 3rem;
+    color: #ffffff;
+}
+
+#cards {
+    display: block;
+}
+
+.card {
+    background-color: #E9EFD8;
+    height: 300px;
+    width: 220px;
 }
 
 /* css for tablet screens */
