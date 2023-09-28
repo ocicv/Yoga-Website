@@ -222,8 +222,44 @@ nav a:hover {
 
 #video {
     display: flex;
-    width: 200px;
-    
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 2rem 0 2rem 0;
+}
+
+#video-text {
+    text-align: center;
+    padding: 3rem 3rem 15px 3rem;
+    color: #292929;
+}
+
+/* Footer */
+footer {
+    background-color: #292929;
+    width: 100%;
+    height: fit-content;
+}
+
+#social-media {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+#social-media li {
+    font-size: 2rem;
+    padding: 1rem 0 1rem 1rem;
+}
+
+#footer-text {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 0 1rem;
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 /* css for tablet screens */
