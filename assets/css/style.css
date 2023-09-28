@@ -158,22 +158,25 @@ nav a:hover {
     padding: 3px 2rem 2rem 2rem;
 }
 
-#our-classes {
-    background-color: #8D9E55;
-}
-
 #register {
     text-align: center;
-    padding: 3rem 3rem 15px 3rem;
+    padding: 3rem 3rem;
+    color: #ffffff;
+}
+
+#offer {
+    background-color: #8d9e55;
+    margin: auto;
+    padding: 0 0 2rem 0;
+    text-align: center;
     color: #ffffff;
 }
 
 #cards {
     display: flex;
     justify-content: center;
-    margin: 30px;
     flex-wrap: wrap;
-    background-color: #8d9e55;
+    color: #292929;
 }
 
 .card {
@@ -181,7 +184,6 @@ nav a:hover {
     height: 300px;
     width: 220px;
     margin: 10px;
-    border-radius: 9px;
 }
 
 #card-image-one {
@@ -189,7 +191,6 @@ nav a:hover {
     background-size: cover;
     height: 200px;
     margin-bottom: 10px;
-    border-radius: 9px 9px 0 0;
 }
 
 #card-image-two {
@@ -197,7 +198,6 @@ nav a:hover {
     background-size: cover;
     height: 200px;
     margin-bottom: 10px;
-    border-radius: 9px 9px 0 0;
 }
 
 #cards h2 {
@@ -211,18 +211,18 @@ nav a:hover {
 }
 
 #register-button {
-    display: flex;
-    justify-content: center;
+    display: block;
     background-color: #292929;
     color: #ffffff;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: medium;
     width: 150px;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
     text-align: center;
     text-decoration: none;
-    margin: 2rem 2rem;
+    margin: auto;
+    margin-top: 20px;
     border-radius: 30px 30px;
 }
 
