@@ -268,6 +268,28 @@ footer {
     color: #ffffff;
 }
 
+/* Gallery */
+
+#gallery-text {
+    text-align: center;
+}
+
+#gallery-text h2 {
+    padding: 3rem 3rem 5px 3rem;
+}
+
+#gallery-image {
+    height: 300px;
+    width: 100%;
+    background-image: url(../pictures/pexels-yan-krukau-8436637.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#gallery {}
+
+#images {}
+
 /* css for tablet screens */
 @media screen and (min-width: 750px) {
 
