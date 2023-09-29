@@ -106,7 +106,7 @@ nav a:hover {
     position: absolute;
     bottom: 150px;
     left: 30px;
-    width: 80%;
+    width: 260px;
     min-height: 200px;
 }
 
@@ -412,6 +412,16 @@ input {
     }
     
     /* Gallery */
+    #gallery-image,
+    #register-image {
+        height: 300px;
+        width: 100%;
+        background-image: url(../pictures/pexels-yan-krukau-8436637.jpg);
+        background-size: cover;
+        position: relative;
+        background-position: bottom;
+    }
+
     #images {
         column-count: 2;
         column-gap: 0;
@@ -510,6 +520,16 @@ input {
     }
    
     /* Gallery */
+    #gallery-image,
+    #register-image {
+        height: 300px;
+        width: 100%;
+        background-image: url(../pictures/pexels-yan-krukau-8436637.jpg);
+        background-size: cover;
+        position: relative;
+        background-position: bottom;
+    }
+
     #images {
         column-count: 3;
     }
@@ -522,9 +542,28 @@ input {
 
 /* big screens */
 @media screen and (min-width: 1200px) {
+
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        background-image: url(../pictures/cover.jpg);
+        background-size: cover;
+        position: relative;
+        background-position: center;
+    }
     
     /* Gallery */
     #images {
     column-count: 4;
+    }
+
+    #gallery-image,
+    #register-image{
+        height: 300px;
+        width: 100%;
+        background-image: url(../pictures/pexels-yan-krukau-8436637.jpg);
+        background-size: cover;
+        position: relative;
+        background-position: bottom;
     }
 }
