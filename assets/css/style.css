@@ -513,6 +513,11 @@ input {
     #images {
         column-count: 3;
     }
+
+    #register-form div {
+        padding: 6px 0;
+        width: 400px;
+    }
 }
 
 /* big screens */
