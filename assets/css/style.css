@@ -161,7 +161,7 @@ nav a:hover {
 /* What do we offer section */
 #register {
     text-align: center;
-    padding: 3rem 3rem;
+    padding: 3rem 0 1rem 0;
     color: #ffffff;
 }
 
@@ -184,7 +184,7 @@ nav a:hover {
     background-color: #ffffff;
     height: 300px;
     width: 220px;
-    margin: 0 0 32px 0;
+    margin: 32px 32px 32px 32px;
 }
 
 #card-image-one {
@@ -195,7 +195,7 @@ nav a:hover {
 }
 
 #card-image-two {
-    background-image: url(../pictures/pexels-yan-krukau-8436772.jpg);
+    background-image: url(../pictures/pexels-yan-krukau-8436769.jpg);
     background-size: cover;
     height: 200px;
     margin-bottom: 10px;
@@ -234,7 +234,7 @@ nav a:hover {
     justify-content: center;
     width: 100%;
     height: auto;
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 3rem 0;
 }
 
 #video-text {
@@ -421,9 +421,20 @@ input {
 /* laptops and desktops */
 @media screen and (min-width: 992px) {
 
+    h2 {
+        font-family: Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 200%;
+    }
+        
+    h3 {
+        font-family: Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 100%;
+    }
+
     #hedline-text {
         background-color: rgba(255, 255, 255, .8);
-        font-size: 200%;
         position: absolute;
         bottom: 150px;
         left: 70px;
@@ -431,12 +442,71 @@ input {
         min-height: 200px;
     }
 
+    #hedline-text h2 {
+        font-family: Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 200%;
+        text-align: left;
+        padding: 2rem 2rem 0 2rem;
+    }
+
     #hedline-text h3 {
         font-family: Helvetica, sans-serif;
-        font-size: 72%;
+        font-size: 110%;
         font-weight: lighter;
         text-align: left;
         padding: 10px 2rem 2rem 2rem;
+    }
+
+    #icon-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 2rem;
+    }
+
+    #stretch {
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+        max-width: 300px;
+    }
+
+    #workout {
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+        max-width: 300px;
+    }
+
+    #socialize {
+        text-align: center;
+        padding: 1rem 1rem 1rem 1rem;
+        max-width: 300px;
+    }
+
+    .card {
+        background-color: #ffffff;
+        height: 340px;
+        width: 300px;
+        margin: 20px 32px 32px 32px;
+    }
+    
+    #card-image-one {
+        background-image: url(../pictures/pexels-yan-krukau-8436587.jpg);
+        background-size: cover;
+        height: 230px;
+        margin-bottom: 10px;
+    }
+    
+    #card-image-two {
+        background-image: url(../pictures/pexels-yan-krukau-8436769.jpg);
+        background-size: cover;
+        height: 230px;
+        margin-bottom: 10px;
+    }
+
+    #play {
+        width: 560px;
+        height: 315px;
     }
    
     /* Gallery */
