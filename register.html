@@ -37,23 +37,32 @@
 
     <!--Main section-->
     <main>
-        <section id="gallery-image">
+        <section id="register-image">
         </section>
-        <section id="gallery-text">
+        <section id="register-text">
             <div>
                 <h2>Register for one of our classes</h2>
                 <h3>Reserve your seat today</h3>
             </div>
-            <section id="register">
+            <section id="register-section">
                 <form id="register-form" action="https://formdump.codeinstitute.net" method="post">
                     <div class="input-field">
-                        <input type="text" placeholder="First Name">
+                        <input type="text" name="first_name" id="first_name" class="text-input" placeholder="First Name" required>
                     </div>
                     <div class="input-field">
-                        <input type="text" placeholder="Last Name">
+                        <input type="text" name="last_name" id="last_name" class="text-input" placeholder="Last Namer" required>
                     </div>
                     <div class="input-field">
-                        <input type="email" placeholder="Email Address">
+                        <input type="email" name="email_address" id="email_address" class="text-input" placeholder="Your Email" required>
+                    </div>
+                    <div id="classes">
+                        <select class="class-selection" id="select-your-class" name="chosen_class">
+                            <option value="Monday 02.10.2023">Monday 02.10.2023</option>
+                            <option value="Friday 06.10.2023">Friday 06.10.2023</option>
+                        </select>
+                    </div>
+                    <div class="register-btn">
+                        <button type="submit">Register</button>
                     </div>
                 </form>
             </section>
