@@ -8,5 +8,10 @@ Users of this website will be able to find all the relevant information about th
 !!!!!!!!!SLIKA!!!!!!!!!
 
 ## Features
-
 ---
+Navigation
+
+Features at the top of the page, it consists of the logo and the name on the left side that links to the main page.
+Navigation links are on the right side: Home, Gallery and Register which links to separate pages on the website.
+
+
