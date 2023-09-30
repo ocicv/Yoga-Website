@@ -79,13 +79,25 @@ SWS website is created to be short and to the poin, user should have clear under
 
 ## Bugs
 
+* No bugs were found on the page.
+
 ## Validator test
 
 1. HTML
    * No errors were detected when running the code trough official W3C validator
 
-1. CSS
+2. CSS
    * No errors were detected when running the code trough official (Jigsaw) validator
 
-1. Accessibility
-   * I confirmed that the colors and font I used are easy to read
+3. Accessibility
+   * I confirmed that the colors and font I used are easy to read and accessible by running it trough lighthouse in devtools.
+
+![image-of-the-project](assets/pictures/Lighthouse-score.png)
+
+## Unfixed bugs
+
+* Nounfixed bugs
+
+## Deploiment
+
+* The site is deployed to github pages:
