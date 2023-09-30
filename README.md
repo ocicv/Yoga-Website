@@ -100,4 +100,16 @@ SWS website is created to be short and to the poin, user should have clear under
 
 ## Deploiment
 
-* The site is deployed to github pages:
+1. The site is deployed to github pages:
+   * In the GitHub repository, navigate to Settings tab,
+   * From the source section drop-down menu, select the Master Branch,
+   * Once a Master Branch has been selected, the page provided the link to the complete Website.
+
+The live link can be found here: 
+
+## Credits
+
+**Content**
+
+* The video in the video section of the website was taken from [Youtube](https://www.youtube.com/watch?v=Y3SirL0z8xI&t=8s)
+* Images on the website are taken from [Pexels](https://www.pexels.com/search/yoga%20class/)
