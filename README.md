@@ -81,3 +81,11 @@ SWS website is created to be short and to the poin, user should have clear under
 
 ## Validator test
 
+1. HTML
+   * No errors were detected when running the code trough official W3C validator
+
+1. CSS
+   * No errors were detected when running the code trough official (Jigsaw) validator
+
+1. Accessibility
+   * I confirmed that the colors and font I used are easy to read

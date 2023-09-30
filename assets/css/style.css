@@ -236,15 +236,22 @@ nav a:hover {
 /* Video section */
 #video {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
     height: auto;
     margin: 2rem 0 3rem 0;
 }
 
+#yoga-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #video-text {
     text-align: center;
-    padding: 3rem 3rem 15px 3rem;
+    padding: 10px 3rem 15px 3rem;
     color: #292929;
 }
 
