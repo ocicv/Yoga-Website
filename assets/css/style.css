@@ -42,6 +42,11 @@ header h1 {
     color: #ffffff;
     font-size: 2rem;
     padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+header a {
+    text-decoration: none;
 }
 
 nav {
