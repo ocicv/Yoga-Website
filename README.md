@@ -5,7 +5,7 @@ Purpose of this website is to present information about our yoga studio to poten
 
 Users of this website will be able to find all the relevant information about the classes, see our gallery and register for the upcoming classes. Through this website users can also access our social media and see a short motivational video that will definitely get them thinking about joining our yoga session.
 
-SWS website is created to be short and to the poin, user should have clear understanding off all the information and how to register for our services.
+SWS website is created to be short and to the point, user should have clear understanding off all the information and how to register for our services.
 
 ![image-of-the-project](assets/pictures/project-image.png)
 
@@ -16,13 +16,13 @@ SWS website is created to be short and to the poin, user should have clear under
 * Features at the top of the page, it consists of the logo and the name on the left side that links to the main page.
 * Navigation links are on the right side: Home, Gallery and Register which links to separate pages on the website.
 * Navigation is clearly marked with hamburger menu and with just a text on larger screens. 
-* Navigation links are in white color so they stand out from the background.
+* Navigation links are in white color, so they stand out from the background.
 
 ![image-of-the-navigation](assets/pictures/navigation.png)
 
 **The Header**
 
-* The header gives a clear picture of what enviroment our clients can expect when they arrive to our class.
+* The header gives a clear picture of what environment our clients can expect when they arrive to our class.
 * It shows a big picture of our class and clients that should motivate future clients to join.
 * Also it contains a short message for our future clients.
 
@@ -44,7 +44,7 @@ SWS website is created to be short and to the poin, user should have clear under
 
 **Video**
 
-* Video section on the paige is created to give clients motivation and to show them some yoga positions they will be learning in the acctual class.
+* Video section on the page is created to give clients motivation and to show them some yoga positions they will be learning in the actual class.
 
 ![image-of-the-video](assets/pictures/Video.png)
 
@@ -96,7 +96,7 @@ SWS website is created to be short and to the poin, user should have clear under
 
 ## Unfixed bugs
 
-* Nounfixed bugs
+* No unfixed bugs
 
 ## Deploiment
 
@@ -105,7 +105,7 @@ SWS website is created to be short and to the poin, user should have clear under
    * From the source section drop-down menu, select the Master Branch,
    * Once a Master Branch has been selected, the page provided the link to the complete Website.
 
-The live link can be found here: 
+The live link can be found here: [SWS Yoga Website](https://ocicv.github.io/Yoga-Website/)
 
 ## Credits
 
